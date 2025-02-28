@@ -47,7 +47,7 @@ brew install git            # For macOS (if Homebrew is installed)
 
 
 ---
-for linux
+for Linux/termux
 Step 2: Clone the Repository
 
 After installing Git, open your terminal and run the followig command to clone the repository:
@@ -57,65 +57,26 @@ git clone https://github.com/Nepomodz/NepomodzWeb.git
 This will create a directory named NepomodzWeb with all the project files.
 
 
----
-for mobile 
 
 Step 3: Install Dependencies
 
-Navigate into the project directory:
-
+Navigate into the project directory
+thsi are main!!
 cd NepomodzWeb
+---
 
-For Python Projects (If there’s a requirements.txt file):
+Step  Run the Script
 
-If the project uses Python, you’ll likely find a requirements.txt file. Run the following command to install the required libraries:
+ server-websitetest.py
 
-pip install -r requirements.txt
+✓✓✓✓✓
+ Monitor the Output
 
-For Node.js Projects:
-
-If the project is built with Node.js, run the following command to install the necessary dependencies:
-
-npm install
+Once the script is running, the terminal will display real-time logs and test results. Monitor these outputs to track how well your website for test 
 
 
 ---
 
-Step 4: Run the Script
-
-For Python Projects:
-
-To run the script, use the following command (replace main.py with the actual script name if different):
-
-python main.py
-
-For Node.js Projects:
-
-If the project is built using Node.js, you can run the script with:
-
-npm start
-
-
----
-
-Step 5: Monitor the Output
-
-Once the script is running, the terminal will display real-time logs and test results. Monitor these outputs to track how well your website is handling the simulated traffic.
-
-
----
-
-Step 6: Customize (Optional)
-
-You can adjust various parameters to suit your testing needs. Look for configuration files like config.py, .env, or other similar files to change settings like:
-
-Target website URL
-
-Requests per minute (RPM)
-
-Duration of the test
-
-Other test-specific parameters
 
 
 
